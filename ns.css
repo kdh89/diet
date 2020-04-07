@@ -1,0 +1,41 @@
+<style>
+  a{
+    text-decoration: none;
+    color:black;
+    line-height: 200%;
+  }
+  h1{
+    font-size: 50px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    margin:0;
+    padding:20px;
+  }
+  ol{
+    padding:20px;
+    margin:0;
+    width:100px;
+    border-right: 1px solid gray;
+  }
+  #dt{
+    display: grid;
+    grid-template-columns:150px 1fr;
+    line-height: 150%;
+  }
+  #justice{
+    padding-left: 20px;
+    line-height: 180%;
+  }
+  @media(max-width:800px){
+    #dt{
+      display: block;
+    }
+    ol{
+      border-right: none;
+    }
+    h1{
+      border-bottom: none;
+    }
+  }
+
+</style>
